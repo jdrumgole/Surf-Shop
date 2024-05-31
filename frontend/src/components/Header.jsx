@@ -4,7 +4,7 @@ import { useContext, useState } from "react";
 import { MdClose, MdMenu } from "react-icons/md";
 import { FaOpencart } from "react-icons/fa";
 // import images / svg's
-import logo from "../assets/logo.svg"
+import logo from "../assets/surflogo.svg"
 import logout from "../assets/logout.svg"
 import user from "../assets/user.svg"
 import { ShopContext } from "../Context/ShopContext";
@@ -20,7 +20,7 @@ const Header = () => {
         <div className="max_padd_container px-4 flexBetween py-3 max-xs:px-2">
             {/* logo */}
             <div>
-                <Link><img /*src={logo}*/ alt="" height={66} width={88} /></Link>
+                <Link><img src={logo} alt="" height={66} width={88} /></Link>
             </div>
             {/* Navbar Desktop*/}
             <Navbar containerStyles={"hidden md:flex gap-x-5 xl:gap-x-10 medium-15"}/>
